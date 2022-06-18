@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-24T05:23:14Z" name="Pnmac" finished-at="2022-05-24T05:23:33Z" duration-ms="18978">
+    <groups>
+    </groups>
+    <test started-at="2022-05-24T05:23:14Z" name="Pnmac Test" finished-at="2022-05-24T05:23:33Z" duration-ms="18978">
+      <class name="com.pnmac.testCases.TC_AddCustomerTest_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.pnmac.testCases.TC_AddCustomerTest_003@69f1a286]" started-at="2022-05-24T05:23:14Z" name="setup" finished-at="2022-05-24T05:23:19Z" duration-ms="4528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer()[pri:0, instance:com.pnmac.testCases.TC_AddCustomerTest_003@69f1a286]" started-at="2022-05-24T05:23:19Z" name="addNewCustomer" finished-at="2022-05-24T05:23:33Z" duration-ms="14034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pnmac.testCases.TC_AddCustomerTest_003@69f1a286]" started-at="2022-05-24T05:23:33Z" name="tearDown" finished-at="2022-05-24T05:23:33Z" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pnmac.testCases.TC_AddCustomerTest_003 -->
+    </test> <!-- Pnmac Test -->
+  </suite> <!-- Pnmac -->
+</testng-results>

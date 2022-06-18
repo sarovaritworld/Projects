@@ -1,0 +1,52 @@
+2022-05-24 10:19:41,647 - Pnmac -INFO - URL is opened
+2022-05-24 10:19:41,732 - Pnmac -INFO - Entered username
+2022-05-24 10:19:41,788 - Pnmac -INFO - Entered password
+2022-05-24 10:19:43,415 - Pnmac -INFO - Login Test Passed
+2022-05-24 10:31:11,114 - Pnmac -INFO - URL is opened
+2022-05-24 10:31:11,198 - Pnmac -INFO - Entered username
+2022-05-24 10:31:11,345 - Pnmac -INFO - Entered password
+2022-05-24 10:31:12,919 - Pnmac -INFO - Login Test Passed
+2022-05-24 10:31:18,275 - Pnmac -INFO - User name entered
+2022-05-24 10:31:18,324 - Pnmac -INFO - User password entered
+2022-05-24 10:31:20,031 - Pnmac -ERROR - Login Failed
+2022-05-24 10:31:20,148 - Pnmac -INFO - User name entered
+2022-05-24 10:31:20,255 - Pnmac -INFO - User password entered
+2022-05-24 10:31:21,925 - Pnmac -ERROR - Login Failed
+2022-05-24 10:31:22,102 - Pnmac -INFO - User name entered
+2022-05-24 10:31:22,150 - Pnmac -INFO - User password entered
+2022-05-24 10:31:24,070 - Pnmac -ERROR - Login Failed
+2022-05-24 10:31:24,220 - Pnmac -INFO - User name entered
+2022-05-24 10:31:24,280 - Pnmac -INFO - User password entered
+2022-05-24 10:31:26,661 - Pnmac -INFO - Login Passed
+2022-05-24 10:31:28,258 - Pnmac -INFO - User name entered
+2022-05-24 10:31:28,340 - Pnmac -INFO - User password entered
+2022-05-24 10:31:30,202 - Pnmac -ERROR - Login Failed
+2022-05-24 10:31:34,631 - Pnmac -INFO - User name is provided
+2022-05-24 10:31:34,737 - Pnmac -INFO - Passsword is provided
+2022-05-24 10:31:37,422 - Pnmac -INFO - providing customer details....
+2022-05-24 10:31:48,413 - Pnmac -INFO - validation started....
+2022-05-24 10:31:48,442 - Pnmac -INFO - test case passed
+2022-05-24 10:42:48,951 - Pnmac -INFO - User name entered
+2022-05-24 10:42:49,029 - Pnmac -INFO - User password entered
+2022-05-24 10:42:50,700 - Pnmac -ERROR - Login Failed
+2022-05-24 10:42:51,284 - Pnmac -INFO - User name entered
+2022-05-24 10:42:51,362 - Pnmac -INFO - User password entered
+2022-05-24 10:42:52,962 - Pnmac -ERROR - Login Failed
+2022-05-24 10:42:53,210 - Pnmac -INFO - User name entered
+2022-05-24 10:42:53,289 - Pnmac -INFO - User password entered
+2022-05-24 10:42:55,164 - Pnmac -ERROR - Login Failed
+2022-05-24 10:42:55,344 - Pnmac -INFO - User name entered
+2022-05-24 10:42:55,421 - Pnmac -INFO - User password entered
+2022-05-24 10:42:57,687 - Pnmac -INFO - Login Passed
+2022-05-24 10:42:59,275 - Pnmac -INFO - User name entered
+2022-05-24 10:42:59,349 - Pnmac -INFO - User password entered
+2022-05-24 10:43:01,265 - Pnmac -ERROR - Login Failed
+2022-05-24 10:48:17,887 - Pnmac -INFO - User name is provided
+2022-05-24 10:48:17,962 - Pnmac -INFO - Passsword is provided
+2022-05-24 10:52:35,002 - Pnmac -INFO - User name is provided
+2022-05-24 10:52:35,059 - Pnmac -INFO - Passsword is provided
+2022-05-24 10:53:19,469 - Pnmac -INFO - User name is provided
+2022-05-24 10:53:19,550 - Pnmac -INFO - Passsword is provided
+2022-05-24 10:53:22,382 - Pnmac -INFO - providing customer details....
+2022-05-24 10:53:33,264 - Pnmac -INFO - validation started....
+2022-05-24 10:53:33,315 - Pnmac -INFO - test case passed

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pnmac]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.pnmac.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Pnmac Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.pnmac.testCases.TC_AddCustomerTest_003">
+        <methods>
+          <include name="setup"/>
+          <include name="addNewCustomer"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pnmac.testCases.TC_AddCustomerTest_003 -->
+    </classes>
+  </test> <!-- Pnmac Test(failed) -->
+</suite> <!-- Failed suite [Pnmac] -->
