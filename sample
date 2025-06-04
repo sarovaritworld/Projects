@@ -1,0 +1,84 @@
+// development/automation-fw> db.rcStubAccessPolicy.find({accountId:'991747724634818'})
+[
+  {
+      _id: ObjectId('682c295b1e653a7d03876cc5'),
+      accountId: '991747724634818',
+      policyId: '649469',
+      requestType: 'Create Policy'
+  },
+  {
+    _id: ObjectId('682c295c1e653a7d03876cc7'),
+    records: [
+      {
+        label: 'Vodafone Local Market Rule',
+        ordinal: '1',
+        action: 'Allow',
+        countryIsoCode: 'ID'
+      },
+      {
+        label: 'UC Middleware Rule',
+        ordinal: '1',
+        action: 'Allow',
+        ipRange: '195.233.250.6/32'
+      },
+      {
+        label: 'UC Middleware Rule',
+        ordinal: '1',
+        action: 'Allow',
+        ipRange: '195.233.250.7/32'
+      },
+      {
+        label: 'UC Middleware Rule',
+        ordinal: '1',
+        action: 'Allow',
+        ipRange: '85.115.54.200/29'
+      },
+      {
+        label: 'UC Middleware Rule',
+        ordinal: '1',
+        action: 'Allow',
+        ipRange: '85.115.53.200/29'
+      },
+      {
+        label: 'UC Middleware Rule',
+        ordinal: '1',
+        action: 'Allow',
+        ipRange: '85.115.52.200/29'
+      },
+      {
+        label: 'UC Middleware Rule',
+        ordinal: '1',
+        action: 'Allow',
+        ipRange: '34.248.109.65'
+      },
+      {
+        label: 'UC Middleware Rule',
+        ordinal: '1',
+        action: 'Allow',
+        ipRange: '54.216.128.55'
+      }
+    ],
+    accountId: '991747724634818',
+    policyId: '649469',
+    requestType: 'Add Rules'
+  },
+  {
+    _id: ObjectId('682c295c1e653a7d03876cc9'),
+    active: true,
+    defaultAction: 'Deny',
+    accountId: '991747724634818',
+    policyId: '649469',
+    requestType: 'Enable Policy'
+  }
+]
+// development/automation-fw>
+
+
+
+git clone https://sarovar.singh:UBNY6sN-HQ8sMasTGQd4@gitlab-ucc.tools.aws.vodafone.com/ucc-platform/middleware/automation-fw.git
+
+Failing scenarios:
+  features/tenant_policy/UN-41237_AllowAll_configuration_for_geoIP.feature:58  add unity tenant without geoLocation and ips but with default policy 'ALLOW' -- @1.1
+  features/tenant_policy/UN-41237_AllowAll_configuration_for_geoIP.feature:62  add unity tenant without geoLocation and ips but with default policy 'DENY' -- @2.1
+
+
