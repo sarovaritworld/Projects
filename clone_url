@@ -1,0 +1,1 @@
+git clone --recurse-submodules -j8 --branch sarovar/UN-42099_Policy_update https://sarovar.singh:UBNY6sN-HQ8sMasTGQd4@gitlab-ucc.tools.aws.vodafone.com/ucc-platform/middleware/automation-fw.git
