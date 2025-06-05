@@ -1,0 +1,195 @@
+saml2aws login --idp-account unity-dev --force
+kubectl config use-context vgsl-unity-dev
+kubectl exec -n middleware -it automation-fw-1 -- /bin/bash
+
+kubectl exec -n middleware -it kafka-tools-678d96c6bb-vlplc -- /bin/bash
+
+saml2aws login --idp-account unity-staging --force
+kubectl config use-context vgsl-unity-staging  
+aws --profile unity-staging --region eu-west-2 s3 ls
+
+kubectl exec -n middleware-test -it automation-fw-0 -- /bin/bash
+
+kubectl exec -n middleware-test -it kafka-tools-678d96c6bb-89rmq -- /bin/bash
+
+
+kafka-tools-64cd8bbb78-jgnpv
+
+
+kubectl get pods -n middleware
+
+
+--Git AWS Clone
+
+git clone --recurse-submodules -j8 --branch sarovar/temp https://sarovar.singh:UBNY6sN-HQ8sMasTGQd4@gitlab-ucc.tools.aws.vodafone.com/ucc-platform/middleware/automation-fw.git
+
+git clone --recurse-submodules -j8 --branch sarovar/UN-42099_Policy_update https://sarovar.singh:UBNY6sN-HQ8sMasTGQd4@gitlab-ucc.tools.aws.vodafone.com/ucc-platform/middleware/automation-fw.git
+
+ 
+
+git clone --recurse-submodules -j8 --branch sarovar/UN-42720_fix_timeouts_for_UN_30163_01_01_and_more  https://sarovar.singh:UBNY6sN-HQ8sMasTGQd4@gitlab-ucc.tools.aws.vodafone.com/ucc-platform/middleware/automation-fw.git
+
+git clone https://sarovar.singh:UBNY6sN-HQ8sMasTGQd4@gitlab-ucc.tools.aws.vodafone.com/ucc-platform/middleware/automation-fw.git
+
+sanity
+testing_tools/scripts/behavex/automation_fw_run_tests.sh -t automation-fw ./test_run
+ 
+
+git submodule update --init --recursive
+
+git clean -fdUPUA_2600_12",
+
+python appdirectRunner.py --tags=UN_41237_01_02
+
+python appdirectRunner.py --tags=UN_21134_05
+
+
+
+Item	Id	Pwd
+Gitlabs	Sarovar.singh@vodafone.com	Select*fromSelect*from
+Git Token	UBNY6sN-HQ8sMasTGQd4	
+VDI	sarovar.singh	Select*from1234567
+Cloudsheel	Url: http://10.32.8.201/
+id : sarovar.singh	Vodafone@1234567
+Kafdrop	middleware	n0BgR%^7Ad
+
+
+DB Details
+
+--Test env------
+ 
+mongosh mongodb://vgsl-ucc-test-euwest1-workload-middleware-common.cluster-c6lxvj72btpg.eu-west-1.docdb.amazonaws.com:27017?retryWrites=false --tls --tlsCAFile global-bundle.pem --username dbadmin
+Password:<dz=Wg|R_9zz+;sD3_{S
+
+
+--dev env------
+mongo DB
+mongosh mongodb://workload-middleware-common.cluster-ca6grtpxqyid.eu-west-1.docdb.amazonaws.com:27017?retryWrites=false --tls --tlsCAFile global-bundle.pem --username dbadmin
+ 
+password- ZDyz4w7D3U7*PtgE5N7
+
+
+DB Commands
+
+show databases
+ 
+use particular database
+ 
+show collections
+ 
+db.getCollection('serviceorder').find({})
+ 
+db.getCollection('serviceorder').find({'href':{'$regex': '67c01908bd718b4d4b309849'}})
+ 
+Query to get data: db.InterstitialPool.find({correlationId:"b09b05af-a174-4200-9da4-f0ea9dcbe753"});
+ 
+db.getCollection('snow-gateway').find({"serviceCharacteristic.value": "1228103197"})
+
+db.getCollection('orders').find({"opCoAccountId:": "88519370271"})
+
+db.getCollection('orders').find({})
+
+
+
+db.rcStubAccessPolicy.find({accountId:'991747724634818'})
+
+
+db.rcStubAccessPolicy.find({accountId:'991748588724197'})
+
+db.rcStubAccessPolicy.find({'991749110715413'})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python appdirectRunner.py --tags=UN_27965_01_01,UN_27965_01_05,UN_31984_01,UN_32340_01_01,UN_33492_01_01,UN_32341_01,UN_32341_07
+@UN_32341_01,UN_32341_07
+
+UN_27965_01_01
+
+
+kubectl get pods -n middleware
+
+--staging env------
+
+mongosh mongodb://workload-middleware-common.cluster-c6lxvj72btpg.eu-west-1.docdb.amazonaws.com:27017?retryWrites=false --tls --tlsCAFile global-bundle.pem --username dbadmin
+Password: <dz=Wg|R_9zz+;sD3_{S
+ 
+ 
+--dev env------
+mongo DB
+mongosh mongodb://workload-middleware-common.cluster-ca6grtpxqyid.eu-west-1.docdb.amazonaws.com:27017?retryWrites=false --tls --tlsCAFile global-bundle.pem --username dbadmin
+ 
+password- ZDyz4w7D3U7*PtgE5N7
+ 
+
+db.hhtp_audit.find({})
+
+
+Jira Filter
+https://jira.tools.aws.vodafone.com/issues/?jql=project%20%3D%20VBUC%20AND%20%22Parent%20Link%22%20%3DUN-33235%20ORDER%20BY%20summary%20ASC
+project = VBUC AND "Parent Link" =UN-33235 ORDER BY summary ASC
+
+
+
+
+Unity-Middleware-DEV last test datetime (test datetime) test_error_message_filter (tags) (feature) failed scenarios (rerun_failing_regression)
+
+https://jira.tools.aws.vodafone.com/browse/UN-33679
+	-app --> name of the micro sewrvice
+	crf,gateways, datafactory, 
+	
+	- Liscenses
+	- 
+
+
+
+https://vodafone.plateau.com/learning/user/deeplink.do?fromSF=Y&linkId=HOME_PAGE
+
+https://vodafone.plateau.com/
+
+
+New
+
+
+
+
+Debugging the Errors in API response
+
+quess corp
+
+
+-regression test takeover : 
+	Add my email to get daily reports - MR raised
+	Check failures which Mahak Reported - 
+	Get filter Queries with Mahak
+	
+-discuss Tech Debt and complete it
+
+
+-Execute and understand Simple and complex service order
+
+
+Today's Task
+	- Refactor the stub and execute the test cases
+	- Analyse Regression Failures
+	- Talk to vijay and tech com for leaves
+	
+	
+	400 + 200/800 
+    400 + 600/  -> Ankita / nupour
